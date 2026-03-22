@@ -104,8 +104,9 @@ A **Streamlit dashboard** allows users to:
 * Choose date
 * Fetch real-time weather data
 * Predict energy consumption instantly
-
 ---
+
+![App Screenshot](image/Dashboard.jpeg)
 
 # 🗃 Database
 
