@@ -1,4 +1,4 @@
-# ⚡ Energy Forecasting Using Machine Learning
+#  Energy Forecasting Using Machine Learning
 
 This project predicts **city-level daily energy consumption** using machine learning with **real-time weather and solar API data**. The system fetches environmental data and generates energy consumption predictions in **kilowatt-hours (kWh)**.
 
@@ -6,7 +6,7 @@ It includes a **machine learning model, Flask backend API, and Streamlit dashboa
 
 ---
 
-# 🚀 Key Features
+#  Key Features
 
 * Stacked ML model for energy prediction
 * Real-time **Weather API** integration
@@ -35,7 +35,7 @@ Energy-Forecasting/
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 * Python
 * Scikit-learn
@@ -45,7 +45,7 @@ Energy-Forecasting/
 * SQLite
 * Weather API
 * Solar API
-# 🧠 Machine Learning Model
+# Machine Learning Model
 
 The project uses a **Stacking Regressor** combining multiple models.
 
@@ -66,7 +66,7 @@ model.pkl
 
 ---
 
-# 🌤 Real-Time Data Integration
+#  Real-Time Data Integration
 
 Environmental data is fetched from external APIs:
 
@@ -84,7 +84,7 @@ These features improve energy demand prediction accuracy.
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 The dataset contains historical data from **2019–2024**, including:
 
@@ -108,7 +108,7 @@ A **Streamlit dashboard** allows users to:
 
 ![App Screenshot](image/Dashboard.jpeg)
 
-# 🗃 Database
+#  Database
 
 Predictions are stored in a **SQLite database**:
 
@@ -120,7 +120,7 @@ Stored fields include city, date, temperature, solar data, and predicted consump
 
 ---
 
-# 🔁 Model Retraining
+#  Model Retraining
 
 To retrain the model with updated data:
 
@@ -136,7 +136,7 @@ model.pkl
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 Clone the repository:
 
@@ -152,7 +152,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Run the Application
+#  Run the Application
 
 Start the backend API:
 
