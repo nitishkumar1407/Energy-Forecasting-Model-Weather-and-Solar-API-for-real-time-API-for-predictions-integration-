@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from xgboost import XGBRegressor
 import joblib
 
-# Load Dataset
+# Load Dataset first
 data = pd.read_csv(r"/Users/nitishkumar/Desktop/forecasting SIH/Solar Model/adjusted_city_scale_energy_dataset_cleaned.csv")
 data['Date'] = pd.to_datetime(data['Date'], dayfirst=True, errors='coerce')
 
